@@ -1,0 +1,13 @@
+.column {
+  width: 45%;
+  display: inline-block;
+  border: 1px solid rgb(228, 220, 220);
+  margin: 10px;
+  border-radius: 1%;
+}
+@media (max-width: 768px) {
+  /*breakpoint*/
+  .column {
+    width: 90%;
+  }
+}
