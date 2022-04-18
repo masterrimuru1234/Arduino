@@ -136,7 +136,7 @@ function Dashboard() {
       // console.log(location.data.main.temp)
   };
   getApiRes();
-  },[dataLayerTemp,dataLayerHumi])
+  },[])
   return (
     <div className="columns">
       <h1>Product Development Lab (EC3712)</h1>
