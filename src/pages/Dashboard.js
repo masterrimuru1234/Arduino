@@ -112,6 +112,7 @@ function Dashboard() {
     await getApiRes();
     }
     setInterval( pushDataToDataLayer, 3000);
+    // await new Promise(resolve => setTimeout(() => resolve(pushDataToDataLayer()), 2000));
   }
   getDataD();
   useEffect(() => {
