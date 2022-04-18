@@ -6,7 +6,7 @@ const data1 = {
   labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
   datasets: [
     {
-      label: "Temperature",
+      label: "Temperature Static",
       data: [14, 15, 14, 15, 19, 18, 18, 17.5, 19, 18.5],
       borderColor: ["rgba(255, 0, 0, 1)"],
       backgroundColor: ["rgba(255, 0, 0, 1)"],
@@ -19,7 +19,7 @@ const data2 = {
   labels: [0, 1, 2, 3, 4, 5, 6, 7,8,9],
   datasets: [
     {
-      label: "Humidity",
+      label: "Humidity Static",
       data: [90, 80, 85, 79, 82, 91, 85, 88, 90, 78],
       borderColor: ["rgba(23,67,88,0.5)"],
       backgroundColor: ["rgba(23,67,88,0.5)"],
@@ -34,7 +34,7 @@ const data3 = {
   labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
   datasets: [
     {
-      label: "Temperature",
+      label: "Temperature Live",
       data: dataLayerTemp,
       borderColor: ["rgba(255, 0, 0, 1)"],
       backgroundColor: ["rgba(255, 0, 0, 1)"],
@@ -47,7 +47,7 @@ const data4 = {
   labels: [0, 1, 2, 3, 4, 5, 6, 7,8,9],
   datasets: [
     {
-      label: "Humidity",
+      label: "Humidity Live",
       data: dataLayerHumi,
       borderColor: ["rgba(23,67,88,0.5)"],
       backgroundColor: ["rgba(23,67,88,0.5)"],
