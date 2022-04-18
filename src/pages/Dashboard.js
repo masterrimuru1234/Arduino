@@ -28,8 +28,8 @@ const data2 = {
     },
   ],
 };
-const dataLayerTemp = [40, 39, 32, 27, 33];
-const dataLayerHumi = [52, 25, 18, 49, 62, 43];
+const dataLayerTemp = [];
+const dataLayerHumi = [];
 const data3 = {
   labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
   datasets: [
@@ -112,6 +112,7 @@ function Dashboard() {
     await getApiRes();
     }
     setInterval( pushDataToDataLayer, 3000);
+    // await new Promise(resolve => setTimeout(() => resolve(pushDataToDataLayer()), 2000));
   }
   getDataD();
   useEffect(() => {
